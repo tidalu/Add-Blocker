@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn AdBlocker",
+    "description": "Main use is to block adds!",
+    "version": "0.0.1",
+    "author": "Ulugbek Norbutaev",
+    "permissions": [
+        "tabs",
+        "webNavigation"
+    ],
+    "host_permissions": [
+        "https://www.linkedin.com/"
+    ],
+    "background": {
+        "service_worker": "extension.js"
+    }
+}
